@@ -1,13 +1,16 @@
 <!doctype html>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../../static/style.css">
-<title>Asset Depot — EntitasCodes</title>
+<link rel="stylesheet" href="../../static/simple.css">
+<title>Asset Depot — Entitas Writes</title>
 <body>
   <header>
-    <h1>EntitasCodes</h1>
+    <div id="skip-link">
+    	<a href="#skip-anchor">Skip to Main Content</a>
+    </div>
+    <h1>Entitas Writes</h1>
     <nav>
       <ul class="nav navbar-nav">
-        <li><a href="../../">Welcome</a></li>
+        <li><a href="../../">Home</a></li>
         
           <li><a href="../../articles/">Articles</a></li>
         
@@ -20,7 +23,7 @@
       </ul>
     </nav>
   </header>
-  <div class="page">
+  <main class="page" id="skip-anchor">
     
   <h2>Asset Depot</h2>
   <p>This is a dumping ground for all the random homebrew assets I’ve written. Most of them should be compatible with both Ironsworn and Starforged, but some are very definitely intended for one system or another. I’ll also write some notes about each asset about system intent and general ideas around the card, on the off-chance you feel like using one yourself and want some words from the author.</p>
@@ -33,65 +36,44 @@
 <h2>Table of Contents</h2>
 <ul class="table-of-contents">
 
-	<li><a href="#rat" id="rat">Rat</a></li>
-
-	<li><a href="#solar-arts" id="solar-arts">Solar Arts</a></li>
-
-	<li><a href="#frog" id="frog">Frog</a></li>
+	<li><a href="#affluential-artisan" id="affluential-artisan">Affluential Artisan</a></li>
 
 	<li><a href="#arcane-resistance" id="arcane-resistance">Arcane Resistance</a></li>
 
 	<li><a href="#conduit" id="conduit">Conduit</a></li>
 
-	<li><a href="#devotant-redux" id="devotant-redux">Devotant Redux</a></li>
+	<li><a href="#death-connected" id="death-connected">Death-Connected</a></li>
 
-	<li><a href="#hugbot" id="hugbot">Hugbot</a></li>
+	<li><a href="#devotant-redux" id="devotant-redux">Devotant Redux</a></li>
 
 	<li><a href="#devourer" id="devourer">Devourer</a></li>
 
-	<li><a href="#rival" id="rival">Rival</a></li>
+	<li><a href="#doll-maker" id="doll-maker">Doll Maker</a></li>
 
-	<li><a href="#death-connected" id="death-connected">Death-Connected</a></li>
+	<li><a href="#frog" id="frog">Frog</a></li>
 
-	<li><a href="#affluential-artisan" id="affluential-artisan">Affluential Artisan</a></li>
+	<li><a href="#hugbot" id="hugbot">Hugbot</a></li>
 
 	<li><a href="#mimic" id="mimic">Mimic</a></li>
 
-	<li><a href="#doll-maker" id="doll-maker">Doll Maker</a></li>
+	<li><a href="#rat" id="rat">Rat</a></li>
+
+	<li><a href="#rival" id="rival">Rival</a></li>
+
+	<li><a href="#solar-arts" id="solar-arts">Solar Arts</a></li>
 
 </ul>
 
 
-<h2>Rat</h2>
-<p>Name:</p>
+<h2>Affluential Artisan</h2>
+<p><em>When you craft luxury goods, roll +supply or +wits (whichever is lower). On a strong hit, take +2 wealth. On a weak hit, choose one: take +1 wealth, or suffer -1 supply to take +2 wealth.</em></p>
 <ul>
-<li>[ ] When you <em>Resupply</em> by searching wreckage or rubbish, add +1. On a strong hit, your rat finds value: take either +1 supply or +2 momentum.</li>
-<li>[ ] When you <em>Secure an Advantage</em> +shadow by sending your rat to sneak around or to spy on someone, add +1 and take +1 momentum on a hit.</li>
-<li>[ ] When your rat endures harm and you burn momentum to improve the result, envision how they escape the greater danger, and take +2 momentum.</li>
+<li>[x] When you make a move to barter, negotiate, or bribe, you may add +2 and suffer -1 wealth. On a miss, you may raise the offer: suffer another -1 wealth and reroll all dice.</li>
+<li>[ ] When you <em>Forge a Bond</em> or <em>Test Your Bond</em> by gifting fine goods (decide before rolling), suffer -2 wealth and reroll any dice.</li>
+<li>[ ] When you or an ally <em>Sojourn</em> or <em>Resupply</em> and score a strong hit with a match, you may envision finding or trading for an item of great value. If you do, take +1 wealth and +2 momentum.</li>
 </ul>
-<p><strong>Asset Track:</strong> 0 to +2</p>
-<p><strong>Notes</strong>: Oh, hey, I wrote about making this asset in one of my asset writing articles. You could really read that to get more information, but this is a low-health utility guy whose third ability is meant to indirectly help you keep him safe. Burning momentum on Companion Endures Harm doesn't sting quite as bad when doing so gives you a bit of a refund for it.</p>
-
-
-<h2>Solar Arts</h2>
-<ul>
-<li>[x] When you <em>Secure an Advantage</em> +edge in battle by maneuvering for a perfect counterattack, add +1. On a hit, if your next move is a <em>Strike</em> or <em>Clash</em> +iron, add +1 and deal +1 harm on a hit.</li>
-<li>[ ] When you <em>Turn the Tide</em> and score a hit, take +momentum equal to the value of the action die. If you <em>End the Fight</em> immediately after this dramatic reversal, you may reroll one challenge die.</li>
-<li>[ ] When you are in a fight against more than one opponent, increase your momentum reset by 1. Then, during this fight, if you score a hit and your action die is a 6, take +1 momentum.</li>
-</ul>
-<p><strong>Notes</strong>: One of my first attempts at a custom asset, and designed specifically for a character in a solo campaign I played. The character mostly fought with unarmed/simple weapons, and I gave them this asset at a turning point in their story. The asset itself can be a bit of a momentum engine in a fight, especially against groups. In-combat Secure an Advantage and a Turn the Tide move make this mostly Ironsworn-only.</p>
-
-
-<h2>Frog</h2>
-<p><strong><em>Name: </em></strong></p>
-<p><strong><em>Ritual: </em></strong></p>
-<ul>
-<li>[ ] <strong>Mystical</strong>: Choose a Ritual-type asset. When you perform this ritual with your frog's aid, take +2 momentum on a hit.</li>
-<li>[ ] <strong>Easygoing</strong>: When you <em>Make Camp</em>, your frog croaks and sings. Roll +heart. On a hit, take +1 spirit.</li>
-<li>[ ] <strong>Transformative</strong>: When you acquire a new asset, you may discard another asset. If you do, you may Advance your new asset once with no experience cost. Then, take +2 spirit and +3 momentum.</li>
-</ul>
-<p><strong>Asset Track:</strong> 0 to +2</p>
-<p><strong>Notes</strong>: Untested Frog companion. Transformative is meant to encourage you to discard assets to boost new ones. It's a net loss of experience value (Even if you didn't advance the discarded asset, you're "discarding" 3 experience for a perk worth 2 experience), but the thought is that a character using Frog wouldn't build up a massive collection of 20 asset cards: they'd keep cycling and changing over their life. It probably wouldn't work out so great in practice.</p>
+<p><strong>Asset Track:</strong> 0 to +5</p>
+<p><strong>Notes</strong>: This is a mix of several assets from Starforged and Ironsworn for the purpose of making an asset for a merchant-crafter: someone who makes fine things and sells them. I'm not so sure on the math for actually creating luxury goods.</p>
 
 
 <h2>Arcane Resistance</h2>
@@ -113,6 +95,15 @@
 <p><strong>Notes</strong>: I don't actually remember making this one. I <em>think</em> this one is inspired by Starforged's Firebrand but with lightning instead. On the other hand, it's clearly written for Ironsworn because it talks about harm. The third ability is interesting, and overall this asset looks like it can deal a ridiculous amount of harm.</p>
 
 
+<h2>Death-Connected</h2>
+<ul>
+<li>[x] When you <em>Swear an Iron Vow</em> (formidable or greater) to a deceased spirit to complete their unfulfilled task, reroll any dice. When you <em>Fulfill Your Vow</em>, also mark 2 ticks on your bonds legacy track.</li>
+<li>[ ] When you make a move to comfort the dying, add +1 and take +1 momentum on a hit. On a strong hit with a match, your companionship may cross mortal boundaries: you may <em>Make a Connection</em> now and reroll any dice.</li>
+<li>[ ] When you <em>Face Death</em>, take the value of your spirit as +momentum. If your action die is a 6 when you Face Death and you score a weak hit, you must still take on a death-bound quest, but you do not have to mark the doomed impact.</li>
+</ul>
+<p><strong>Notes</strong>: When I first posted this on the Ironsworn discord, one of the first remarks was that the name needs work. Feel free to rename it yourself. There are a few Ironsworn and Starforged assets that deal with death, but I wanted something with a bit of a different bent than what the default assets provide: comforting and helping spirits. This is written for Starforged, but a tweak for Ironsworn would be trivial: change the first ability's reward to 1 experience, and the second ability's <em>Make a Connection</em> into <em>Forge A Bond</em>.</p>
+
+
 <h2>Devotant Redux</h2>
 <p><strong>God's Name: </strong></p>
 <p><strong>Stat: </strong></p>
@@ -122,16 +113,6 @@
 <li>[ ] When you <em>Sojourn</em> or <em>Make Camp</em> by taking solace in your faith, you may roll +your god's stat. On a hit, for any choice that grants +spirit, take +1 spirit more.</li>
 </ul>
 <p><strong>Notes</strong>: This is the Devotant asset from Ironsworn. The only change is in the third ability, which adds two things: using it with <em>Make Camp</em>, and changing it from proselytizing to personal worship. This mostly-reskin is largely a comfort change, when using the third ability to evangelize about your god doesn't feel right for some reason or another.</p>
-
-
-<h2>Hugbot</h2>
-<ul>
-<li>[x] Your hugbot is not configured correctly. When you Strike by having your hugbot "hug" an enemy, roll +its health.</li>
-<li>[ ] When you make a move to aid another through their emotional distress, you may get the hugbot's help. If you do (decide before rolling), add +its health, but treat a weak hit as a miss as its advice comes off as disturbing and violent.</li>
-<li>[ ] Your hugbot can actually hug now. When you Endure Stress and score a miss with a match, your hugbot tries to comfort you through your trouble. Reroll any dice and, on a hit, take +your hugbot's health as momentum.</li>
-</ul>
-<p><strong>Asset Track:</strong> 0 to +3</p>
-<p><strong>Notes</strong>: Written as a gag asset, but potentially quite usable. This one follows the Starforged convention for companions, where the first ability is pre-marked (instead of choosing any of the three when you acquire it).</p>
 
 
 <h2>Devourer</h2>
@@ -145,34 +126,36 @@
 <p><strong>Notes</strong>: Hungry, Hungry Ironsworn. Iron doesn't get enough fun assets. Untested, but potential to be fun once you finally build up a full stomach. Implies you'll be doing a LOT of fighting, since getting full stomach itself means either 3 Dangerous or 2 Formidable fights. The second ability is potentially strong, since you get to bypass any risk of actually having to roll to recover. On the other hand, you had to fight and make the devour move in the first place.</p>
 
 
-<h2>Rival</h2>
-<p>When you <em>Make a Connection</em> (extreme or greater) with one who will stop at nothing to defeat you...</p>
+<h2>Doll Maker</h2>
 <ul>
-<li>[x] When you make a move, you may improve the result to a strong hit. If you do, fill one segment of a four-segment clock. When the clock is filled, your rival challenges you, ready or not. This asset counts as an impact until you confront and defeat them. When you do, <em>Develop Your Relationship</em> and reset the clock.</li>
-<li>[ ] When you <em>Develop Your Relationship</em> with your rival, take +2 momentum. When you fill a box in their Connection, also take +1 spirit.</li>
-<li>[ ] When your Connection has 7 or more boxes and you settle the score in one final encounter, gain this ability at no cost. Take an automatic strong hit when you <em>Forge a Bond</em> with them, and exchange this asset for another with the same number of marked abilities.</li>
+<li>[x] When you fashion a doll or figurine, roll +heart. On a strong hit, the doll animates. If it aids you in a move, add +1. It has 2 health and suffers harm as appropriate, but it is not a companion and may not be healed. At 0 health, it is destroyed beyond repair. On a weak hit, as above, but crafting the doll proves difficult: suffer either -1 supply or -2 momentum.</li>
+<li>[ ] Your doll has 3 health.</li>
+<li>[ ] When you have an hour or so to mend the doll and have 1 or more Supply, you may suffer -1 Supply. If you do, the doll may take +1 health.</li>
 </ul>
-<p><strong>Notes</strong>: This is a rework of Starforged's Fugitive asset. Instead of being pursued by a force, you're engaging in a connection with one particular, personal rival again and again until your conflict reaches its peak. The main challenge with this one is figuring out what mechanically happens if you refuse your rival when the clock fills. With Fugitive, it's simple: the clock doesn't reset until you escape your pursuers, who are presumably a constant threat. The best I could do to simulate the urgency is to make the asset count as a debility until you get off your duff and defeat your rival.</p>
+<p><strong>Asset Track:</strong> 0 to +3</p>
+<p><strong>Notes</strong>: This is a reskin/reflavoring of the Awakening ritual. Nothing particularly exciting here, I wanted a controllable creation that didn't have the risk of turning on me. In return, it's a bit less powerful (but more generally versatile). Mending the doll is probably not mechanically wise but it's cute. This asset is technically for Ironsworn because Starforged has an explicit Sacrifice Resources move, but there's nothing really stopping you from using it in that system either.</p>
 
 
-<h2>Death-Connected</h2>
+<h2>Frog</h2>
+<p><strong><em>Name: </em></strong></p>
+<p><strong><em>Ritual: </em></strong></p>
 <ul>
-<li>[x] When you <em>Swear an Iron Vow</em> (formidable or greater) to a deceased spirit to complete their unfulfilled task, reroll any dice. When you <em>Fulfill Your Vow</em>, also mark 2 ticks on your bonds legacy track.</li>
-<li>[ ] When you make a move to comfort the dying, add +1 and take +1 momentum on a hit. On a strong hit with a match, your companionship may cross mortal boundaries: you may <em>Make a Connection</em> now and reroll any dice.</li>
-<li>[ ] When you <em>Face Death</em>, take the value of your spirit as +momentum. If your action die is a 6 when you Face Death and you score a weak hit, you must still take on a death-bound quest, but you do not have to mark the doomed impact.</li>
+<li>[ ] <strong>Mystical</strong>: Choose a Ritual-type asset. When you perform this ritual with your frog's aid, take +2 momentum on a hit.</li>
+<li>[ ] <strong>Easygoing</strong>: When you <em>Make Camp</em>, your frog croaks and sings. Roll +heart. On a hit, take +1 spirit.</li>
+<li>[ ] <strong>Transformative</strong>: When you acquire a new asset, you may discard another asset. If you do, you may Advance your new asset once with no experience cost. Then, take +2 spirit and +3 momentum.</li>
 </ul>
-<p><strong>Notes</strong>: When I first posted this on the Ironsworn discord, one of the first remarks was that the name needs work. Feel free to rename it yourself. There are a few Ironsworn and Starforged assets that deal with death, but I wanted something with a bit of a different bent than what the default assets provide: comforting and helping spirits. This is written for Starforged, but a tweak for Ironsworn would be trivial: change the first ability's reward to 1 experience, and the second ability's <em>Make a Connection</em> into <em>Forge A Bond</em>.</p>
+<p><strong>Asset Track:</strong> 0 to +2</p>
+<p><strong>Notes</strong>: Untested Frog companion. Transformative is meant to encourage you to discard assets to boost new ones. It's a net loss of experience value (Even if you didn't advance the discarded asset, you're "discarding" 3 experience for a perk worth 2 experience), but the thought is that a character using Frog wouldn't build up a massive collection of 20 asset cards: they'd keep cycling and changing over their life. It probably wouldn't work out so great in practice.</p>
 
 
-<h2>Affluential Artisan</h2>
-<p><em>When you craft luxury goods, roll +supply or +wits (whichever is lower). On a strong hit, take +2 wealth. On a weak hit, choose one: take +1 wealth, or suffer -1 supply to take +2 wealth.</em></p>
+<h2>Hugbot</h2>
 <ul>
-<li>[x] When you make a move to barter, negotiate, or bribe, you may add +2 and suffer -1 wealth. On a miss, you may raise the offer: suffer another -1 wealth and reroll all dice.</li>
-<li>[ ] When you <em>Forge a Bond</em> or <em>Test Your Bond</em> by gifting fine goods (decide before rolling), suffer -2 wealth and reroll any dice.</li>
-<li>[ ] When you or an ally <em>Sojourn</em> or <em>Resupply</em> and score a strong hit with a match, you may envision finding or trading for an item of great value. If you do, take +1 wealth and +2 momentum.</li>
+<li>[x] Your hugbot is not configured correctly. When you Strike by having your hugbot "hug" an enemy, roll +its health.</li>
+<li>[ ] When you make a move to aid another through their emotional distress, you may get the hugbot's help. If you do (decide before rolling), add +its health, but treat a weak hit as a miss as its advice comes off as disturbing and violent.</li>
+<li>[ ] Your hugbot can actually hug now. When you Endure Stress and score a miss with a match, your hugbot tries to comfort you through your trouble. Reroll any dice and, on a hit, take +your hugbot's health as momentum.</li>
 </ul>
-<p><strong>Asset Track:</strong> 0 to +5</p>
-<p><strong>Notes</strong>: This is a mix of several assets from Starforged and Ironsworn for the purpose of making an asset for a merchant-crafter: someone who makes fine things and sells them. I'm not so sure on the math for actually creating luxury goods.</p>
+<p><strong>Asset Track:</strong> 0 to +3</p>
+<p><strong>Notes</strong>: Written as a gag asset, but potentially quite usable. This one follows the Starforged convention for companions, where the first ability is pre-marked (instead of choosing any of the three when you acquire it).</p>
 
 
 <h2>Mimic</h2>
@@ -187,19 +170,39 @@
 <p><strong>Notes</strong>: Do you like companions and their abilities? Do you have just too many companion cards to manage narratively? Why have 3 birds, a cat, a dog, and a mammoth, when you can have just 1 mimic pet that turns into any of those as appropriate? This pet follows the Starforged convention of having the first ability pre-marked (instead of the Ironsworn convention where you can choose any of the three). Doppelganger might be a better name for this asset, I don't know. You decide.</p>
 
 
-<h2>Doll Maker</h2>
+<h2>Rat</h2>
+<p>Name:</p>
 <ul>
-<li>[x] When you fashion a doll or figurine, roll +heart. On a strong hit, the doll animates. If it aids you in a move, add +1. It has 2 health and suffers harm as appropriate, but it is not a companion and may not be healed. At 0 health, it is destroyed beyond repair. On a weak hit, as above, but crafting the doll proves difficult: suffer either -1 supply or -2 momentum.</li>
-<li>[ ] Your doll has 3 health.</li>
-<li>[ ] When you have an hour or so to mend the doll and have 1 or more Supply, you may suffer -1 Supply. If you do, the doll may take +1 health.</li>
+<li>[ ] When you <em>Resupply</em> by searching wreckage or rubbish, add +1. On a strong hit, your rat finds value: take either +1 supply or +2 momentum.</li>
+<li>[ ] When you <em>Secure an Advantage</em> +shadow by sending your rat to sneak around or to spy on someone, add +1 and take +1 momentum on a hit.</li>
+<li>[ ] When your rat endures harm and you burn momentum to improve the result, envision how they escape the greater danger, and take +2 momentum.</li>
 </ul>
-<p><strong>Asset Track:</strong> 0 to +3</p>
-<p><strong>Notes</strong>: This is a reskin/reflavoring of the Awakening ritual. Nothing particularly exciting here, I wanted a controllable creation that didn't have the risk of turning on me. In return, it's a bit less powerful (but more generally versatile). Mending the doll is probably not mechanically wise but it's cute. This asset is technically for Ironsworn because Starforged has an explicit Sacrifice Resources move, but there's nothing really stopping you from using it in that system either.</p>
+<p><strong>Asset Track:</strong> 0 to +2</p>
+<p><strong>Notes</strong>: Oh, hey, I wrote about making this asset in one of my asset writing articles. You could really read that to get more information, but this is a low-health utility guy whose third ability is meant to indirectly help you keep him safe. Burning momentum on Companion Endures Harm doesn't sting quite as bad when doing so gives you a bit of a refund for it.</p>
+
+
+<h2>Rival</h2>
+<p>When you <em>Make a Connection</em> (extreme or greater) with one who will stop at nothing to defeat you...</p>
+<ul>
+<li>[x] When you make a move, you may improve the result to a strong hit. If you do, fill one segment of a four-segment clock. When the clock is filled, your rival challenges you, ready or not. This asset counts as an impact until you confront and defeat them. When you do, <em>Develop Your Relationship</em> and reset the clock.</li>
+<li>[ ] When you <em>Develop Your Relationship</em> with your rival, take +2 momentum. When you fill a box in their Connection, also take +1 spirit.</li>
+<li>[ ] When your Connection has 7 or more boxes and you settle the score in one final encounter, gain this ability at no cost. Take an automatic strong hit when you <em>Forge a Bond</em> with them, and exchange this asset for another with the same number of marked abilities.</li>
+</ul>
+<p><strong>Notes</strong>: This is a rework of Starforged's Fugitive asset. Instead of being pursued by a force, you're engaging in a connection with one particular, personal rival again and again until your conflict reaches its peak. The main challenge with this one is figuring out what mechanically happens if you refuse your rival when the clock fills. With Fugitive, it's simple: the clock doesn't reset until you escape your pursuers, who are presumably a constant threat. The best I could do to simulate the urgency is to make the asset count as a debility until you get off your duff and defeat your rival.</p>
+
+
+<h2>Solar Arts</h2>
+<ul>
+<li>[x] When you <em>Secure an Advantage</em> +edge in battle by maneuvering for a perfect counterattack, add +1. On a hit, if your next move is a <em>Strike</em> or <em>Clash</em> +iron, add +1 and deal +1 harm on a hit.</li>
+<li>[ ] When you <em>Turn the Tide</em> and score a hit, take +momentum equal to the value of the action die. If you <em>End the Fight</em> immediately after this dramatic reversal, you may reroll one challenge die.</li>
+<li>[ ] When you are in a fight against more than one opponent, increase your momentum reset by 1. Then, during this fight, if you score a hit and your action die is a 6, take +1 momentum.</li>
+</ul>
+<p><strong>Notes</strong>: One of my first attempts at a custom asset, and designed specifically for a character in a solo campaign I played. The character mostly fought with unarmed/simple weapons, and I gave them this asset at a turning point in their story. The asset itself can be a bit of a momentum engine in a fight, especially against groups. In-combat Secure an Advantage and a Turn the Tide move make this mostly Ironsworn-only.</p>
 
 
 
-  </div>
+  </main>
   <footer>
-    &copy; Copyright 2026 by Entitas.
+    This site was built with <a href="https://www.getlektor.com/">Lektor</a> and styled with <a href="https://simplecss.org/">Simple.css</a>
   </footer>
 </body>
